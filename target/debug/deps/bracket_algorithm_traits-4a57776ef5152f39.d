@@ -1,0 +1,10 @@
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/debug/deps/bracket_algorithm_traits-4a57776ef5152f39.rmeta: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm2d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm3d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/basemap.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/debug/deps/libbracket_algorithm_traits-4a57776ef5152f39.rlib: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm2d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm3d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/basemap.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/debug/deps/bracket_algorithm_traits-4a57776ef5152f39.d: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm2d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm3d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/basemap.rs
+
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/lib.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm2d.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm3d.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/basemap.rs:

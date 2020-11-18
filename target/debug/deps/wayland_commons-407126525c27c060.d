@@ -1,0 +1,12 @@
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/debug/deps/wayland_commons-407126525c27c060.rmeta: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/map.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/sinks.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/socket.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/utils.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/wire.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/debug/deps/libwayland_commons-407126525c27c060.rlib: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/map.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/sinks.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/socket.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/utils.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/wire.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/debug/deps/wayland_commons-407126525c27c060.d: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/map.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/sinks.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/socket.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/utils.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/wire.rs
+
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/lib.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/map.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/sinks.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/socket.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/utils.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-commons-0.23.6/src/wire.rs:

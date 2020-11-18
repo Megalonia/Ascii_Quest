@@ -1,0 +1,12 @@
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/debug/deps/wayland_sys-8a69902d04af71b0.rmeta: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/common.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/client.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/server.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/egl.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/cursor.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/debug/deps/libwayland_sys-8a69902d04af71b0.rlib: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/common.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/client.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/server.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/egl.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/cursor.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/debug/deps/wayland_sys-8a69902d04af71b0.d: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/common.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/client.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/server.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/egl.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/cursor.rs
+
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/lib.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/common.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/client.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/server.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/egl.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wayland-sys-0.23.6/src/cursor.rs:
