@@ -1,5 +1,4 @@
 use specs::prelude::*;
-use specs_derive::*;
 use rltk::{RGB};
 
 #[derive(Component)]
@@ -10,17 +9,17 @@ pub struct Position {
 
 #[derive(Component)]
 pub struct Renderable {
-    pub glyph: rltk::FontCharType,
+    pub symbol: rltk::FontCharType,
     pub fg: RGB,
     pub bg: RGB,
-    pub render_order : i32
+    pub render_order: i32
 }
 
 #[derive(Component, Debug)]
 pub struct Player {}
 
 #[derive(Component)]
-pub struct Viewshed {
+pub struct Vision {
     pub visible_tiles : Vec<rltk::Point>,
     pub range : i32,
     pub dirty : bool
@@ -29,25 +28,25 @@ pub struct Viewshed {
 #[derive(Component, Debug)]
 pub struct Monster {}
 
-#[derive(Component, Debug)]
+#[derive(Component,  Debug)]
 pub struct Name {
-    pub name : String
+    pub name: String
 }
 
 #[derive(Component, Debug)]
 pub struct BlocksTile {}
 
 #[derive(Component, Debug)]
-pub struct CombatStats {
-    pub max_hp : i32,
-    pub hp : i32,
-    pub defense : i32,
-    pub power : i32
+pub struct Stats {
+    pub max_hp: i32,
+    pub hp: i32,
+    pub defense: i32,
+    pub power: i32
 }
 
-#[derive(Component, Debug, Clone)]
+#[derive(Component, Debug,Clone)]
 pub struct WantsToMelee {
-    pub target : Entity
+    pub target: Entity
 }
 
 #[derive(Component, Debug)]

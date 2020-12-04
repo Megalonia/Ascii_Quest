@@ -637,16 +637,35 @@ We want to render the parts of the map we know are there, but we want to restric
 
 ## Adding Mobs
 We'll start by making a ```Monster``` component and registering it on main.
-we can create and entity with the monster component:
+we can create and create a random spawner:
+```rs
+    let mut rng = rltk::RandomNumberGenerator::new();
+    for room in map.rooms.iter().skip(1) {
+        let (x,y) = room.center();
 
+        let glyph : rltk::FontCharType;
+        let roll = rng.roll_dice(1, 2);
+        match roll {
+            1 => { glyph = rltk::to_cp437('S') }
+            _ => { glyph = rltk::to_cp437('s') }
+         }
+        game_state.ecs.create_entity()
+            .with(Position{ x, y })
+            .with(Renderable{
+                symbol: glyph,
+                fg: RGB::named(rltk::GREEN),
+                bg: RGB::named(rltk::BLACK),
+            })
+            .with(Vision{ visible_tiles : Vec::new(), range: 8, dirty: true })
+            .with(Monster{})
+                                                                    
+           .build();
+    }
 ``` 
-game_state.ecs.create_entity()
-    .with(Position{ x, y })
-    .with(Renderable{
-        symbol: 'M',
-        fg: RGB::named(rltk::RED),
-        bg: RGB::named(rltk::BLACK),
-    })
-    .with(Vision{ visible_tiles : Vec::new(), range: 8, dirty: true })
-    .with(Monster{})
-    .build();
+This allows use to add monster entities to the game; However, there is one big problem. We can see all the monster in every room.  modify render loop in tick.
+
+## Mob AI
+
+Now that we have monsters generating in the map that are only visible if theyre in view. We'll make them think.
+
+

@@ -1,0 +1,55 @@
+use specs::prelude::*;
+use super::{Vision, Monster, Map, Position, WantsToMelee, RunState};
+use rltk::{Point};
+
+pub struct MobAI {}
+
+impl<'a> System<'a> for MobAI {
+    #[allow(clippy::type_complexity)]
+    type SystemData = ( WriteExpect<'a, Map>,
+                        ReadExpect<'a, Point>,
+                        ReadExpect<'a, Entity>,
+                        ReadExpect<'a, RunState>,
+                        Entities<'a>,
+                        WriteStorage<'a, Vision>, 
+                        WriteStorage<'a, Position>,
+                        WriteStorage<'a, WantsToMelee>,
+                        ReadStorage<'a, Monster>);
+
+
+    fn run(&mut self, data : Self::SystemData) {
+        let (mut map,
+             player_pos,
+             player_entity,
+             runstate,
+             entities,
+             mut vis,
+             mut position,
+             mut wants_to_melee,
+             monster) = data;
+
+        if *runstate != RunState::MonsterTurn { return;}
+
+        for (entity, mut vis,_monster,mut pos) in (&entities, &mut vis,&monster, &mut position).join() {
+            let distance = rltk::DistanceAlg::Pythagoras.distance2d(Point::new(pos.x, pos.y), *player_pos);
+            if distance < 1.5 {
+                wants_to_melee.insert(entity, WantsToMelee{ target: *player_entity}).expect("Unable to insert attack");
+            }else if vis.visible_tiles.contains(&*player_pos) {
+                let path = rltk::a_star_search(
+                    map.find_xy_index(pos.x, pos.y),
+                    map.find_xy_index(player_pos.x, player_pos.y),
+                    &mut *map
+                );
+                if path.success && path.steps.len() > 1 {
+                    let mut idx = map.find_xy_index(pos.x, pos.y);
+                    map.blocked[idx] = false;
+                    pos.x = path.steps[1] as i32 % map.width; 
+                    pos.y = path.steps[1] as i32 / map.width; 
+                    idx = map.find_xy_index(pos.x, pos.y); 
+                    map.blocked[idx] = true;
+                    vis.dirty = true;
+                }
+            }
+        }
+    }
+}
