@@ -1,0 +1,12 @@
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/wasm32-unknown-unknown/release/deps/wide-0a1ad6aeaf7ef838.rmeta: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/arch.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4/wide_methods.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4/wide_trait_impls.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_i32x4.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/wasm32-unknown-unknown/release/deps/libwide-0a1ad6aeaf7ef838.rlib: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/arch.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4/wide_methods.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4/wide_trait_impls.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_i32x4.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/wasm32-unknown-unknown/release/deps/wide-0a1ad6aeaf7ef838.d: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/arch.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4/wide_methods.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4/wide_trait_impls.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_i32x4.rs
+
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/lib.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/arch.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4/wide_methods.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_f32x4/wide_trait_impls.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/wide-0.4.6/src/m_i32x4.rs:

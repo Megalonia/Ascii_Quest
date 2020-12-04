@@ -1,0 +1,2 @@
+cargo:rustc-cfg=feature="toolchain_nightly"
+cargo:rustc-cfg=feature="extern_crate_std"

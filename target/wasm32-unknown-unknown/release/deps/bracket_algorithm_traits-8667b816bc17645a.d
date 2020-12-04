@@ -1,0 +1,10 @@
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/wasm32-unknown-unknown/release/deps/bracket_algorithm_traits-8667b816bc17645a.rmeta: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm2d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm3d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/basemap.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/wasm32-unknown-unknown/release/deps/libbracket_algorithm_traits-8667b816bc17645a.rlib: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm2d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm3d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/basemap.rs
+
+/home/jo/Desktop/5600/Wasm/game/ascii_quest/target/wasm32-unknown-unknown/release/deps/bracket_algorithm_traits-8667b816bc17645a.d: /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/lib.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm2d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm3d.rs /home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/basemap.rs
+
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/lib.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm2d.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/algorithm3d.rs:
+/home/jo/.cargo/registry/src/github.com-1ecc6299db9ec823/bracket-algorithm-traits-0.8.1/src/basemap.rs:
